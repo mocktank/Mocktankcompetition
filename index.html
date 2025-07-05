@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title>MockTank</title>
+   <!-- Your custom CSS -->
+   <link rel="stylesheet" href="style.css" />
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+   <!-- ✅ Font Awesome CDN -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+     html {
+     scroll-behavior: smooth;
+     }
+    </style>
+     <style>
+     .floating-apply-btn {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     background-color: #FACC15;
+     color: #1E3A8A;
+     padding: 0.8rem 1.5rem;
+     font-weight: bold;
+     border-radius: 50px;
+     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+     text-decoration: none;
+     z-index: 999;
+     background 0.3s ease;
+     }
+
+     .floating-apply-btn:hover {
+     background-color: #fcd34d;
+     }
+    </style>
+  </head>
+<body>
+
+  <div class="top-announcement-bar">
+    <p><strong>Ready to Disrupt? 💥 Apply Now for MOCKTANK – The Ultimate Teen Startup Pitch Battle!</strong>  
+    Win prizes, mentorship, and a shot at startup glory for FREE — this is your moment! 💼🌟
+    <a href="#">Sign Up Today!</a></p>
+  </div>
+
+  <!-- MAIN NAVIGATION BAR -->
+  <header class="main-header">
+    <div class="nav-container">
+      <div class="site-name">
+      <h1>MockTank</h1>
+      </div>
+      <nav class="main-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#apply">Apply</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="hero-header" id="home">
+   <div class="overlay">
+    <h1>Join the MockTank Competition</h1>
+    <p class="hero-subtitle">A virtual pitch competition for high school students around the world to get hands-on experience with entrepreneurship and startups. Turn your ideas into impact — this is where bold journeys begin.</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe8zkfJvfYBMB9XeTdmBr4vFt9LiMW0oJq1pUTKYnhEf3fmaw/viewform?usp=header" class="btn header-btn" target="_blank" rel="noopener noreferrer">
+     Apply Now
+    </a>
+   </div>
+
+    <div class="custom-shape-divider-bottom-1750663080">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+         viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,
+                 82.39-16.72,168.19-17.73,250.45-.39C823.78,31,
+                 906.67,72,985.66,92.83c70.05,18.48,
+                 146.53,26.09,214.34,3V0H0V27.35A600.21,
+                 600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+  <section class="countdown-section">
+    <h2 class="countdown-heading">Application Closes In</h2>
+    <div class="countdown">
+    <div class="count-box">
+      <span id="days">00</span>
+      <small>Days</small>
+    </div>
+    <div class="count-box">
+      <span id="hours">00</span>
+      <small>Hours</small>
+    </div>
+    <div class="count-box">
+      <span id="minutes">00</span>
+      <small>Minutes</small>
+    </div>
+    <div class="count-box">
+      <span id="seconds">00</span>
+      <small>Seconds</small>
+    </div>
+    </div>
+   </section>
+
+
+  <section id="about" class="about-copy" data-aos="fade-up"></section>
+    <div class="about-wrapper">
+     <div class="about-left" data-aos="fade-right">
+      <img src="about.jpg" alt="MockTank Visual" />
+     </div>
+    <div class="about-right" data-aos="fade-left">
+      <h2>About Us</h2>
+      <p>
+        MockTank is a youth-led virtual startup pitch competition where teens can unleash their entrepreneurial spirit. Whether you're a high schooler with a bold idea or a curious problem-solver, this platform is for you.
+      </p>
+      <p>
+        From ideation to final pitch, MockTank equips participants with mentorship, confidence, and presentation skills — all in a supportive, student-run environment. No pressure, just possibility.
+      </p>
+    </div>
+   </div>
+  </section>
+
+  <section id="mission" class="mission-section">
+   <div class="mission-split-bg">
+    <div class="mission-overlay-card" data-aos="zoom-in">
+      <h2>Our Mission</h2>
+      <p>
+        At MockTank, our mission is to ignite the entrepreneurial spirit in students worldwide — empowering them to innovate, lead, and pitch bold ideas with confidence. We believe every teen deserves a platform to dream big and build even bigger.
+      </p>
+    </div>
+   </div>
+  </section>
+
+  <section id="how" class="steps-section">
+   <h2>How It Works</h2>
+    <div class="steps-wrapper">
+    <div class="step-box" data-aos="fade-up">
+      <div class="step-circle">1</div>
+      <div class="step-text">
+        <h3>Register Online</h3>
+        <p>Apply solo or as a team of up to 3.</p>
+      </div>
+    </div>
+
+    <div class="step-box" data-aos="fade-up">
+      <div class="step-circle">2</div>
+      <div class="step-text">
+        <h3>Submit Your Idea</h3>
+        <p>Submit a short written proposal outlining your startup idea.</p>
+      </div>
+    </div>
+
+    <div class="step-box" data-aos="fade-up">
+      <div class="step-circle">3</div>
+      <div class="step-text">
+        <h3>Get Mentorship</h3>
+        <p>Semi-finalists attend a virtual mentorship session.</p>
+      </div>
+    </div>
+
+    <div class="step-box" data-aos="fade-up">
+      <div class="step-circle">4</div>
+      <div class="step-text">
+        <h3>Live Pitch</h3>
+        <p>Teams present live to judges and finalists are selected.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="timeline">
+   <h2>Competition Timeline – MockTank 2025</h2>
+  
+   <h3> Registration Phase</h3>
+   <ul>
+    <li><strong>July 1, 2025:</strong> Applications Open — Students may register as individuals or in teams (up to 3 members).</li>
+    <li><strong>July 30, 2025:</strong> Final Submission Deadline — All teams must submit their business proposals to be eligible.</li>
+   </ul>
+
+   <h3> Review & Selection Phase</h3>
+   <ul>
+    <li><strong>May 1-5, 2025:</strong> Judge Review Window.</li>
+    <li><strong>May 6, 2025:</strong> Semi-Finalist Announcement — Selected teams move forward and are notified via email.</li>
+   </ul>
+
+   <h3> Mentorship & Pitch Prep</h3>
+   <ul>
+    <li><strong>May 10-12, 2025:</strong> Mentorship Period — Semi-finalists attend virtual mentorship sessions with industry experts.</li>
+   </ul>
+
+   <h3> Live Semi-Final Pitches</h3>
+   <ul>
+    <li><strong>May 15, 2025:</strong> Live Pitch Event — Semi-finalists present their startup ideas live to the judges.</li>
+   </ul>
+
+   <h3> Finalist Announcement</h3>
+   <ul>
+    <li><strong>May 20, 2025:</strong> Finalist Teams Announced — Finalist teams are declared and recognized.</li>
+   </ul>
+
+   <h3> Final Round + Awards</h3>
+   <ul>
+    <li><strong>May 25, 2025:</strong> Grand Finale — Finalists pitch one last time; winners are announced during the virtual ceremony.</li>
+   </ul>
+  </section>
+
+  <section id="competition-tabs" class="tab-section">
+   <h2 class="section-title">Competition Info</h2>
+
+   <div class="tab-buttons">
+    <button class="tab-btn active" data-tab="timeline">Timeline</button>
+    <button class="tab-btn" data-tab="faq">FAQs</button>
+    <button class="tab-btn" data-tab="awards">Awards</button>
+    <button class="tab-btn" data-tab="rules">Rules</button>
+    <button class="tab-btn" data-tab="guidelines">Guidelines</button>
+   </div>
+
+   <div class="tab-content active" id="timeline">
+    <ul>
+      <li><strong>July 1:</strong> Applications Open</li>
+      <li><strong>July 10:</strong> Final Submission Deadline</li>
+      <li><strong>July 15:</strong> Shortlisted Teams Announced</li>
+      <li><strong>July 20:</strong> Live Pitch Round</li>
+      <li><strong>TBD:</strong> Winners Announced</li>
+    </ul>
+   </div>
+
+   <div class="tab-content" id="faq">
+    <ul>
+      <li><strong>Is it free?</strong> Yes, MockTank is 100% free to enter.</li>
+      <li><strong>Can I join without a team?</strong> Yes, you can apply solo.</li>
+      <li><strong>Do I need experience?</strong> No prior business experience is needed.</li>
+      <li><strong>What will I gain?</strong> Feedback, exposure, and networking with student leaders.</li>
+    </ul>
+   </div>
+
+   <div class="tab-content" id="awards">
+    <ul>
+      <li>🏆 1st Place – MockTank Winner Certificate + Mentorship</li>
+      <li>🥈 2nd Place – Finalist Certificate</li>
+      <li>🎖 Special Mentions – Creativity & Impact</li>
+    </ul>
+   </div>
+
+   <div class="tab-content" id="rules">
+    <ul>
+      <li>Participants must be between 13–19 years old.</li>
+      <li>Teams can have 1–3 members.</li>
+      <li>All submissions must be original ideas.</li>
+      <li>Pitches should be under 5 minutes long.</li>
+      <li>All materials must be submitted in English.</li>
+    </ul>
+   </div>
+
+   <div class="tab-content" id="guidelines">
+    <ul>
+      <li>Submit a 1–2 page idea proposal.</li>
+      <li>Include your problem, solution, and target audience.</li>
+      <li>You can attach optional visuals or mockups.</li>
+      <li>Submit your proposal as a PDF or shareable Google Doc link.</li>
+    </ul>
+   </div>
+  </section>
+
+  <section id="apply">
+    <h2>Apply</h2>
+    <p>Click below to apply for the MockTank competition!</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe8zkfJvfYBMB9XeTdmBr4vFt9LiMW0oJq1pUTKYnhEf3fmaw/viewform?usp=header" class="btn" target="_blank" rel="noopener noreferrer">
+     Apply Now
+    </a>
+  </section>
+
+  <script>
+   const tabButtons = document.querySelectorAll('.tab-btn');
+   const tabContents = document.querySelectorAll('.tab-content');
+
+   tabButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Remove active from all buttons
+      tabButtons.forEach(b => b.classList.remove('active'));
+      // Add active to clicked button
+      btn.classList.add('active');
+
+      // Hide all content
+      tabContents.forEach(content => content.classList.remove('active'));
+
+      // Show corresponding content
+      const tabId = btn.getAttribute('data-tab');
+      document.getElementById(tabId).classList.add('active');
+    });
+   });
+  </script>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe8zkfJvfYBMB9XeTdmBr4vFt9LiMW0oJq1pUTKYnhEf3fmaw/viewform?usp=header" class="floating-apply-btn" target="_blank" rel="noopener noreferrer">
+    Apply Now
+  </a>
+
+  <!-- Add this before </body> -->
+ <a href="#home" class="scroll-top-btn" title="Go to top">⬆</a>
+
+  <style>
+   .scroll-top-btn {
+   position: fixed;
+   bottom: 80px;
+   right: 20px;
+   background-color: #1E3A8A;
+   color: white;
+   padding: 10px 12px;
+   border-radius: 50%;
+   font-size: 1.2rem;
+   display: none;
+   z-index: 1000;
+   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+   transition: background 0.3s ease;
+   }
+
+   .scroll-top-btn:hover {
+   background-color: #16367d;
+   }
+  </style>
+
+  <script>
+   const scrollBtn = document.querySelector('.scroll-top-btn');
+   window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      scrollBtn.style.display = 'block';
+    } else {
+      scrollBtn.style.display = 'none';
+    }
+   });
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+   AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true      // animate only once on scroll
+   });
+  </script>
+   <footer class="main-footer">
+   <div class="footer-container">
+    <div class="footer-col">
+      <h3>About</h3>
+      <p>MockTank is a global virtual pitch competition empowering high school students to create impactful startups.</p>
+    </div>
+    
+    <div class="footer-col">
+      <h3>Useful Links</h3>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#apply">Apply</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-col">
+      <h3>Connect With Us</h3>
+      <a href="mailto:mocktankteam@gmail.com" class="footer-btn">Contact Us</a>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/officialmocktank/" target="_blank"><img src="instaicon.png" alt="Instagram"></a>
+        <a href="https://tiktok.com/@officialmocktank" target="_blank"><img src="tiktokicon.png" alt="TikTok"></a>
+        <!-- Add more icons if needed -->
+      </div>
+    </div>
+    </div>
+   <div class="footer-bottom">
+    <p>&copy; 2025 MockTank. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <script>
+    window.addEventListener('scroll', function () {
+    const header = document.querySelector('.main-header');
+    if (window.scrollY > 50) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+    });
+  </script>
+
+  <script>
+    const targetDate = new Date("July 30, 2025 23:59:59").getTime();
+
+    const countdown = setInterval(function () {
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("days").innerText = days;
+    document.getElementById("hours").innerText = hours;
+    document.getElementById("minutes").innerText = minutes;
+    document.getElementById("seconds").innerText = seconds;
+
+    if (distance < 0) {
+      clearInterval(countdown);
+      document.querySelector(".countdown").innerHTML = "Submission Closed!";
+    }
+   }, 1000);
+  </script>
+
+  <script>
+   window.addEventListener('scroll', () => {
+    const header = document.querySelector('.main-header');
+    header.classList.toggle('scrolled', window.scrollY > 50);
+   });
+  </script>
+
+</body>
+</html>
